@@ -1,12 +1,13 @@
 {
-  "name": "discord-bot",
+  "name": "rift-discord-bot",
   "version": "1.0.0",
-  "description": "A simple Discord bot",
-  "main": "src/index.js",
+  "description": "A Discord bot built using Discord.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "discord.js": "^14.11.1"
+    "discord.js": "^14.0.0",
+    "dotenv": "^16.0.0"
   }
 }
